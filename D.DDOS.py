@@ -35,7 +35,7 @@ DDDDDDDDDDDDD         ...... DDDDDDDDDDDDD        DDDDDDDDDDDDD             OOOO
 		print(Fore.RED+banner)
 		print(Fore.YELLOW+"""
 		[+] An Advance DDOS Tool Using Sockets Written in Python [+]"""+Fore.GREEN+"""
-		[+] Developer : ⋆ D#0552 [ """+Fore.WHITE+"""s1ralt ]""")
+		[+] Developer : DYL4N#0552 [ """+Fore.WHITE+"""s1ralt ]""")
 		print(Fore.WHITE+"""
 		[+] Type `help` If You Are A Beginner [+]
 			""")
