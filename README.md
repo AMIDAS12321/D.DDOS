@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/932602851564322836/951630815756972083/9F1126EA-FA32-4FC0-B38C-A30DAFCB070B.png" height=240 width=100%>
+<img src="https://media.discordapp.net/attachments/932602851564322836/951644374071148594/DDOS.png" height=240 width=100%>
 <h1 align="center">D.DDOS</h1>
 <p align="center"><b>An Advance HTTP Python MultiThreaded DDOS Tool</b></p>
 <br>
