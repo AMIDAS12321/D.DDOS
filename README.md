@@ -31,4 +31,6 @@
   9. attacks (number of attacks) (1000)
   10. start
   
+ if this doesn't work, make sure you do pip install colorama and if u still need more modules installed just go to my requirements.txt and pip install(modules)
+  
   
