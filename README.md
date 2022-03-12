@@ -22,7 +22,7 @@
   **Tutorial**
   1. You will need to install python. (https://www.python.org/downloads/)
   2. make a new folder, name it whatever
-  3. next to the name on top of the folder click on the space and replace everything with cmd then enter the command prompt (cmd)
+  3. next to the name on top of the folder click on the space then do [ctrl +a] then type cmd
   4. in the command prompt, type python then click [tab] until it shows DYL4N#0552.py
   5. type help
   6. do host, port, attacks one by one.
