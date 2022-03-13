@@ -14,23 +14,23 @@ class SockFlood:
 		self.threads=None
 
 	def graphics(self):
-		banner="""                                                                                                       
-DDDDDDDDDDDDD                DDDDDDDDDDDDD        DDDDDDDDDDDDD             OOOOOOOOO        SSSSSSSSSSSSSSS 
-D::::::::::::DDD             D::::::::::::DDD     D::::::::::::DDD        OO:::::::::OO    SS:::::::::::::::S
-D:::::::::::::::DD           D:::::::::::::::DD   D:::::::::::::::DD    OO:::::::::::::OO S:::::SSSSSS::::::S
-DDD:::::DDDDD:::::D          DDD:::::DDDDD:::::D  DDD:::::DDDDD:::::D  O:::::::OOO:::::::OS:::::S     SSSSSSS
-  D:::::D    D:::::D           D:::::D    D:::::D   D:::::D    D:::::D O::::::O   O::::::OS:::::S            
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::OS:::::S            
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::O S::::SSSS         
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::O  SS::::::SSSSS    
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::O    SSS::::::::SS  
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::O       SSSSSS::::S 
-  D:::::D     D:::::D          D:::::D     D:::::D  D:::::D     D:::::DO:::::O     O:::::O            S:::::S
-  D:::::D    D:::::D           D:::::D    D:::::D   D:::::D    D:::::D O::::::O   O::::::O            S:::::S
-DDD:::::DDDDD:::::D          DDD:::::DDDDD:::::D  DDD:::::DDDDD:::::D  O:::::::OOO:::::::OSSSSSSS     S:::::S
-D:::::::::::::::DD    ...... D:::::::::::::::DD   D:::::::::::::::DD    OO:::::::::::::OO S::::::SSSSSS:::::S
-D::::::::::::DDD      .::::. D::::::::::::DDD     D::::::::::::DDD        OO:::::::::OO   S:::::::::::::::SS 
-DDDDDDDDDDDDD         ...... DDDDDDDDDDDDD        DDDDDDDDDDDDD             OOOOOOOOO      SSSSSSSSSSSSSSS                                                                                                          
+		banner="""                                                                                                                                                                                                                
+DDDDDDDDDDDDD        YYYYYYY       YYYYYYYLLLLLLLLLLL                    444444444  NNNNNNNN        NNNNNNNN
+D::::::::::::DDD     Y:::::Y       Y:::::YL:::::::::L                   4::::::::4  N:::::::N       N::::::N
+D:::::::::::::::DD   Y:::::Y       Y:::::YL:::::::::L                  4:::::::::4  N::::::::N      N::::::N
+DDD:::::DDDDD:::::D  Y::::::Y     Y::::::YLL:::::::LL                 4::::44::::4  N:::::::::N     N::::::N
+  D:::::D    D:::::D YYY:::::Y   Y:::::YYY  L:::::L                  4::::4 4::::4  N::::::::::N    N::::::N
+  D:::::D     D:::::D   Y:::::Y Y:::::Y     L:::::L                 4::::4  4::::4  N:::::::::::N   N::::::N
+  D:::::D     D:::::D    Y:::::Y:::::Y      L:::::L                4::::4   4::::4  N:::::::N::::N  N::::::N
+  D:::::D     D:::::D     Y:::::::::Y       L:::::L               4::::444444::::444N::::::N N::::N N::::::N
+  D:::::D     D:::::D      Y:::::::Y        L:::::L               4::::::::::::::::4N::::::N  N::::N:::::::N
+  D:::::D     D:::::D       Y:::::Y         L:::::L               4444444444:::::444N::::::N   N:::::::::::N
+  D:::::D     D:::::D       Y:::::Y         L:::::L                         4::::4  N::::::N    N::::::::::N
+  D:::::D    D:::::D        Y:::::Y         L:::::L         LLLLLL          4::::4  N::::::N     N:::::::::N
+DDD:::::DDDDD:::::D         Y:::::Y       LL:::::::LLLLLLLLL:::::L          4::::4  N::::::N      N::::::::N
+D:::::::::::::::DD       YYYY:::::YYYY    L::::::::::::::::::::::L        44::::::44N::::::N       N:::::::N
+D::::::::::::DDD         Y:::::::::::Y    L::::::::::::::::::::::L        4::::::::4N::::::N        N::::::N
+DDDDDDDDDDDDD            YYYYYYYYYYYYY    LLLLLLLLLLLLLLLLLLLLLLLL        4444444444NNNNNNNN         NNNNNNN                                                                                            
 		"""
 		print(Fore.RED+banner)
 		print(Fore.YELLOW+"""
